@@ -268,6 +268,8 @@ button:focus {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 .heading {
@@ -285,14 +287,15 @@ button:focus {
 }
 
 .Typewriter__wrapper {
+  position: absolute;
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
 }
-.Typewriter__cursor {
+/* .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
-}
+} */
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
@@ -466,6 +469,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 0% ;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -473,7 +477,7 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
-.blog-card {
+/* .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -502,19 +506,19 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
+} */
 
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 30px !important;
 }
-
+/*
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
   border-radius: 0px !important;
-}
+} */
 
 .btn-primary {
   color: #fff !important;
@@ -678,7 +682,7 @@ button:focus {
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 10px;
   left: -9px;
   top: 0;
   background: #fff;
