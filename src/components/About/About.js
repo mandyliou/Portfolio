@@ -18,6 +18,7 @@ function About() {
               justifyContent: "center",
               paddingTop: "2px",
               paddingBottom: "50px",
+              marginRight: "88px"
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
@@ -26,11 +27,16 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "70px", paddingBottom: "50px", paddingLeft: "30px",  }}
+            md={4}
+            style={{ paddingTop: "88px", paddingBottom: "50px", opacity: 0.92  }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={laptopImg}
+              alt="about"
+              className="img-fluid"
+              style={{ maxHeight: "500px" }}
+            />
           </Col>
         </Row>
         {/* <h1 className="project-heading">
