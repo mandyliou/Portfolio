@@ -1,3 +1,4 @@
+// import { RadialGradient } from "@react-pdf/renderer";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.png";
@@ -12,6 +13,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -30,18 +32,20 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingTop: 30 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid "
+                style={{ maxHeight: "500px" }}
+                // opacity="0.5"
               />
             </Col>
+
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Home2  />
     </section>
   );
 }

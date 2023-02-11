@@ -16,7 +16,7 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "2px",
               paddingBottom: "50px",
             }}
           >
@@ -27,17 +27,16 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "70px", paddingBottom: "50px", paddingLeft: "30px",  }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        {/* <h1 className="project-heading">
+          Technical <strong className="purple">Skills </strong>
         </h1>
-
-        <Techstack />
+        <Techstack /> */}
 
         {/* <Github /> */}
       </Container>

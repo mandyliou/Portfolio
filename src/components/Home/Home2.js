@@ -2,22 +2,24 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineMail,
-} from "react-icons/ai";
+import Techstack from "../About/Techstack";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+        <Row className="home-about-social">
+          <h1 className="project-heading">
+            Technical <strong className="purple">Skills </strong>
+          </h1>
+          <Techstack className="icon-colour" />
+          <Col md={12} >
+            <h1>CONNECT WITH ME</h1>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
