@@ -1,6 +1,6 @@
 import {
     DiHtml5,
-    DiDjango,
+    // DiDjango,
     DiJavascript1,
     DiReact,
     DiBootstrap,
