@@ -8,10 +8,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container style={{ justifyContent: "center" }} fluid className="home-about-section" id="about">
       <Container>
         <Row className="home-about-social">
-          <h1 className="project-heading">
+          <h1 className="project-heading" >
             Technical <strong className="purple">Skills </strong>
           </h1>
           <Techstack className="icon-colour" />
