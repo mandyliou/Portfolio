@@ -34,9 +34,9 @@ function Projects() {
             <ProjectCard
               imgPath={cars}
               isBlog={false}
-              title="Cars"
+              title="Auto Log"
               description="This innovative solution is designed specifically for car dealerships to streamline the process of scheduling service appointments and efficiently track sales records. With its functionality, this project aims to enhance the overall efficiency and productivity of car dealerships."
-              ghLink="https://github.com/mandyliou/cars"
+              ghLink="https://github.com/mandyliou/auto-log"
 
             />
           </Col>
