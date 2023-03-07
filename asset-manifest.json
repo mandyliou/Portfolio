@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ddcdc0cf.css",
-    "main.js": "/portfolio/static/js/main.551d9326.js",
+    "main.js": "/portfolio/static/js/main.5e8e7db4.js",
     "static/js/415.fc063c41.chunk.js": "/portfolio/static/js/415.fc063c41.chunk.js",
     "static/js/787.f6e65957.chunk.js": "/portfolio/static/js/787.f6e65957.chunk.js",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.36c36eef984fca07bad9.jpg",
     "static/media/about.png": "/portfolio/static/media/about.997247a70e6e364c386f.png",
     "static/media/home-main.png": "/portfolio/static/media/home-main.46b0c562b8d63a8f6693.png",
-    "static/media/Mandy.pdf": "/portfolio/static/media/Mandy.04ed9dd27f6fed86a996.pdf",
+    "static/media/Mandy.pdf": "/portfolio/static/media/Mandy.f67063971130d60ecd04.pdf",
     "static/media/cars.png": "/portfolio/static/media/cars.2d9ee362e02c9df9d2ee.png",
     "static/media/fitster.png": "/portfolio/static/media/fitster.aaf7a7dc554a1703b26a.png",
     "static/media/event.png": "/portfolio/static/media/event.861cc8311d70b32eae6e.png",
@@ -15,12 +15,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
     "main.ddcdc0cf.css.map": "/portfolio/static/css/main.ddcdc0cf.css.map",
-    "main.551d9326.js.map": "/portfolio/static/js/main.551d9326.js.map",
+    "main.5e8e7db4.js.map": "/portfolio/static/js/main.5e8e7db4.js.map",
     "415.fc063c41.chunk.js.map": "/portfolio/static/js/415.fc063c41.chunk.js.map",
     "787.f6e65957.chunk.js.map": "/portfolio/static/js/787.f6e65957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcdc0cf.css",
-    "static/js/main.551d9326.js"
+    "static/js/main.5e8e7db4.js"
   ]
 }
