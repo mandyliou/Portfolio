@@ -88,6 +88,14 @@ button:focus {
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
   height: 68px;
+  background-color: #181a27;
+
+}
+.navbar-collapse {
+  /* flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center; */
+  background-color: #181a27;
 }
 
 .logo {
@@ -115,6 +123,7 @@ button:focus {
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: 0 !important;
+
 }
 
 .navbar-toggler span:nth-child(1),
@@ -330,7 +339,7 @@ img {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  
+
 }
 
 .home-about-description {
