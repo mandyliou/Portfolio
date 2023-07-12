@@ -10,6 +10,7 @@ import {
     DiCss3,
     DiNodejsSmall,
     DiPostgresql,
+    DiMongodb
   } from "react-icons/di";
 
 import {
@@ -82,8 +83,8 @@ export const skillData = [
 },
 {
     id: 12,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <DiMongodb className="display-4" />,
+    name: "Mongodb",
 }
 
 
