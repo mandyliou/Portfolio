@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import fitster from "../../Assets/Projects/fitster.png";
 import cars from "../../Assets/Projects/cars.png";
 import event from "../../Assets/Projects/event.png";
+import jobFinder from "../../Assets/Projects/jobFinder.png";
 // testing
 
 function Projects() {
@@ -19,6 +20,18 @@ function Projects() {
           Here's a few projects I've worked on recently!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={jobFinder}
+            isBlog={false}
+            title="JobFinder"
+            description="A mobile app developed in React Native, JobFinder revolutionizes job hunting by curating real-time listings from multiple platforms via RapidAPI. Seamlessly hosted on Expo, its adaptive UI/UX ensures quick access and instant updates, elevating the efficiency of your job search."
+
+
+            ghLink="https://github.com/mandyliou/JobFinder"
+          />
+        </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fitster}
