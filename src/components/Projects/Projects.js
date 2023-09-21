@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import fitster from "../../Assets/Projects/fitster.png";
 import cars from "../../Assets/Projects/cars.png";
 import event from "../../Assets/Projects/event.png";
+import finance from "../../Assets/Projects/finance.png";
 import jobFinder from "../../Assets/Projects/jobFinder.png";
 // testing
 
@@ -32,6 +33,16 @@ function Projects() {
           />
         </Col>
 
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={finance}
+              isBlog={false}
+              title="FinTrackML"
+              description="A comprehensive financial data analytics application, developed using the MERN stack. It integrates machine learning for predictive revenue modeling, offering real-time KPI tracking and transaction analysis, serving as a critical tool for data-driven financial decision-making."
+              ghLink="https://github.com/mandyliou/FinTrackML"
+
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fitster}
