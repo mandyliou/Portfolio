@@ -5,8 +5,9 @@ import Particle from "../Particle";
 import fitster from "../../Assets/Projects/fitster.png";
 import cars from "../../Assets/Projects/cars.png";
 import event from "../../Assets/Projects/event.png";
-import finance from "../../Assets/Projects/finance.png";
+import finance from "../../Assets/Projects/finance2.png";
 import jobFinder from "../../Assets/Projects/jobFinder.png";
+import Stripe from "../../Assets/Projects/Stripe.png";
 // testing
 
 function Projects() {
@@ -21,6 +22,18 @@ function Projects() {
           Here's a few projects I've worked on recently!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={Stripe}
+            isBlog={false}
+            title="eMart"
+            description="An e-commerce solution built with Django and TailwindCSS, eMart offers a seamless user experience for digital transactions. Using Docker for containerization, it features secure billing through Stripe and leverages AWS S3 with serverless architecture for robust data storage."
+
+
+            ghLink="https://github.com/mandyliou/eMart"
+          />
+        </Col>
+
         <Col md={4} className="project-card">
           <ProjectCard
             imgPath={jobFinder}
